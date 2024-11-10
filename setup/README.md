@@ -48,7 +48,7 @@ code .
 Add the following to your **`index.html`** file.
 
 ```html
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
