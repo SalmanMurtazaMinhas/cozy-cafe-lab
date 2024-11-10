@@ -31,10 +31,17 @@ Next, `cd` into your new cloned directory, `cozy-cafe-lab`:
 cd cozy-cafe-lab
 ```
 
-Then, create an **`app.js`** and a **`index.html`** file. These files will hold your work for this lab:
+
+Create a directory called `js`:
 
 ```bash
-touch app.js index.html
+mkdir js
+```
+
+Then, create an `index.html` file, as well as a `app.js` file inside the `js` directory. These files will hold your work for this lab:
+
+```bash
+touch index.html ./js/app.js
 ```
 
 With the files created, open the contents of the directory in VS Code:
