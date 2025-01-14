@@ -23,8 +23,8 @@ The cafe's title is a bit too long. Select the `#main-title` id element and chan
 
 
 ### Part 2
-
-Select the `body` element and change the background color to a soothing pastel shade of your choice. (If you can't think of a color, `bisque`, `lightsteelblue`, and `pink` are good choices.) 
+Select the provided `button` with the text "Change Background Color" using JavaScript.
+When the button is clicked, change the background color of the `body` to a soothing pastel shade of your choice. (If you can't think of a color, `bisque`, `lightsteelblue`, and `pink` are good choices.) 
 
 ### Part 3
 
@@ -48,6 +48,6 @@ Select the list of **Cafe Specialties** and add a list item.  Be sure to add con
 
 Create a new blog post for a recent cafe event. You will need to create a new `<div>` element with the class `.blog-post`, a new `<h3>` with a relevant event title (e.g., “Karak Tea Tasting Event”), and a new `<p>` with some text describing the event. Make sure the new post matches the style and structure of the other blog posts. Think carefully about the order of element creation and appending.
 
-### Part 8 - 🚀 Level Up
+### Part 9 - 🚀 Level Up
 
 It turns out the cafe never served the item “Fish Tacos”. Select the **Past Menu Items** list and remove “Fish Tacos” from it. _Hint: You'll have to cache both the "Fish Tacos" list item element as well as it's parent, then use the [`removeChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild) method on the parent to remove the cached `<li>` element._
