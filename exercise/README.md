@@ -24,7 +24,8 @@ The cafe's title is a bit too long. Select the `#main-title` id element and chan
 
 ### Part 2
 
-Select the `body` element and change the background color to a soothing pastel shade of your choice. (If you can't think of a color, `bisque`, `lightsteelblue`, and `pink` are good choices.) 
+Select the provided `button` with the text "Change Background Color" using JavaScript.
+When the button is clicked, change the background color of the `body` to a soothing pastel shade of your choice. (If you can't think of a color, `bisque`, `lightsteelblue`, and `pink` are good choices.)  
 
 ### Part 3
 

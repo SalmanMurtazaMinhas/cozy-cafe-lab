@@ -61,11 +61,35 @@ Add the following to your **`index.html`** file.
     <meta charset="utf-8" />
     <title>Cozy Cafe</title>
     <script defer src="./js/app.js"></script>
+
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #bg-color-btn{
+            background-color: rgb(149, 129, 65);
+            color: black;
+            border: 0;
+            border-radius: 5%;
+            height: 3rem;
+        }
+
+        #bg-color-btn:hover{
+            padding: 10px;
+            background-color: rgb(124, 107, 53);
+
+        }
+    </style>
+
   </head>
   <body>
 
     <header>
-      <h1 id="main-title">Welcome to the Cozy Cafe - Where Flavors and Comfort Meet</h1>
+        <h1 id="main-title">Welcome to the Cozy Cafe - Where Flavors and Comfort Meet</h1>
+        <button id="bg-color-btn">Change Background Color</button>
     </header>
 
     <h4>Cafe Specialties</h4>
